@@ -8,7 +8,7 @@ import os
 All_Stock = pd.DataFrame()
 
 # Define parameters
-connectionString = "DefaultEndpointsProtocol=https;AccountName=somalastorage;AccountKey=cFTBjedf8bpMxpO8SdphqkuRXOBHQS/ygWw1pk6iOPjTldRav7Kn9zUJ6AREVzBvvkoyx+q6kuTF+AStfzFC6Q==;EndpointSuffix=core.windows.net"  # find in azure portal
+connectionString = "connectionstring"  # find in azure portal
 containerName = "output"
 outputBlobName = "All_Stock.csv"
 
